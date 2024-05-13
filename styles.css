@@ -1,0 +1,36 @@
+body {
+    background-color: aqua;
+}
+.pizza {
+    border: 1px solid #34192C;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+}
+.medium_pizza {
+    background-color: azure;
+    flex: 200px;
+}
+.large_pizza {
+    background-color: blue;
+    flex: 300px;
+}
+.small_pizza {
+    background-color: blueviolet;
+    flex: 100px;
+}
+.contact_us {
+    background-color: brown;
+}
+@media (min-width:768px) {
+    /*body {
+        background-color: black;
+    }*/
+}
+
+@media (min-width:960px) {
+    .pizzas {
+        display: flex;
+    }
+}

@@ -25,12 +25,12 @@ body {
 }
 @media (min-width:768px) {
     /*body {
-        background-color: black;
+    background-color: black;
     }*/
 }
 
 @media (min-width:960px) {
     .pizzas {
-        display: flex;
+    display: flex;
     }
 }
